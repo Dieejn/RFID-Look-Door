@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "293eac2f-f0ba-4087-b58c-250c6449c863")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 152.4 99.06)
+		(size 12.7 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c2ad074-d6d9-4a72-b697-9facce4e4b68")
+		(property "Sheetname" "MachNguon"
+			(at 152.4 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MachNguon.kicad_sch"
+			(at 152.4 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 99.06)
+		(size 12.7 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f16fc88-6dac-48ff-8680-263cfd0fc74b")
+		(property "Sheetname" "Connector"
+			(at 114.3 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connector.kicad_sch"
+			(at 114.3 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 60.96)
+		(size 12.7 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72e106ba-0914-404d-a58f-eb3348d5f3a2")
+		(property "Sheetname" "MCU"
+			(at 152.4 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 152.4 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 60.96)
+		(size 12.7 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d335a407-c03f-4570-ba9e-7bfda88db272")
+		(property "Sheetname" "Keypad"
+			(at 114.3 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Keypad.kicad_sch"
+			(at 114.3 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

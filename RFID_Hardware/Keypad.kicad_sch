@@ -1,0 +1,2331 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "149b9218-3368-4463-872b-6b471e0b48f9")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Switch:SW_Omron_B3FS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Omron_B3FS"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*Omron*B3FS*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Omron_B3FS_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 111.76 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "214ee0db-88ea-4636-a589-719637229028")
+	)
+	(junction
+		(at 147.32 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3143da52-eb65-49d8-a142-0153b2feaf0e")
+	)
+	(junction
+		(at 147.32 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e66078b-d423-4333-a9ce-3d757e4a5aa5")
+	)
+	(junction
+		(at 111.76 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "655fdf89-a528-4e5b-b1ed-38b96c311e59")
+	)
+	(junction
+		(at 129.54 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81d4c5d2-cdff-43e2-a85c-1853111a34b7")
+	)
+	(junction
+		(at 139.7 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "892b2b71-5d3c-4f8b-884b-7fd4ab5157c8")
+	)
+	(junction
+		(at 129.54 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "956730b5-2a4f-4594-9044-5182e91fb7a1")
+	)
+	(junction
+		(at 111.76 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "966f463a-6a0a-4d64-892b-30eeef26aa99")
+	)
+	(junction
+		(at 175.26 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98a149f7-1a75-4a19-b46b-79271964b67e")
+	)
+	(junction
+		(at 139.7 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a17bfb3e-36a2-4aee-bb60-734127965358")
+	)
+	(junction
+		(at 175.26 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a61923a3-804e-4500-bd52-0b9824c3ffa9")
+	)
+	(junction
+		(at 121.92 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aee37275-9e2b-4be2-a02c-58432c4f7765")
+	)
+	(junction
+		(at 121.92 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcca1a2e-aab4-4b8b-a4dc-062d64290bf2")
+	)
+	(junction
+		(at 121.92 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c226b0cb-a24b-47e7-b073-a60054bd7966")
+	)
+	(junction
+		(at 175.26 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c38b950b-8363-4636-8f80-d7a99a8ccf9a")
+	)
+	(junction
+		(at 111.76 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4e059fb-432e-4083-8da5-d70dbd969ca6")
+	)
+	(junction
+		(at 147.32 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c538a35d-60e7-44a8-a6da-19677f044c5b")
+	)
+	(junction
+		(at 139.7 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdb4c043-3873-4024-ba78-30f7453253f5")
+	)
+	(junction
+		(at 157.48 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6521baf-56f0-43e5-88ef-c7614433cd1f")
+	)
+	(junction
+		(at 129.54 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d73c042d-a4cf-48d8-b34f-d779e7a04c8d")
+	)
+	(junction
+		(at 129.54 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddf0330f-3765-4fcf-87ce-76d35a49de8a")
+	)
+	(junction
+		(at 157.48 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df6ff619-0ff9-4e86-a4e4-14ac44718244")
+	)
+	(junction
+		(at 147.32 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f539ec89-08ff-4669-985d-b0c52e3d134e")
+	)
+	(junction
+		(at 157.48 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdb13a73-fd61-4798-83fd-8db98af4f046")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 139.7 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004a08da-1b79-4d22-aa24-a4f43f8252eb")
+	)
+	(wire
+		(pts
+			(xy 165.1 97.79) (xy 165.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0496f95f-4579-442a-8164-fc9290b022ee")
+	)
+	(wire
+		(pts
+			(xy 107.95 123.19) (xy 107.95 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07721e66-bc4e-4863-88a3-d142486bb944")
+	)
+	(wire
+		(pts
+			(xy 180.34 73.66) (xy 180.34 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2b5eef-0aa9-4d27-b03b-2366d97a413e")
+	)
+	(wire
+		(pts
+			(xy 184.15 85.09) (xy 184.15 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eae2b35-f24e-44a5-929a-c72251970bbf")
+	)
+	(wire
+		(pts
+			(xy 99.06 87.63) (xy 111.76 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d7acfc-ffad-4d16-81e8-f8cf01766c26")
+	)
+	(wire
+		(pts
+			(xy 187.96 130.81) (xy 157.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1833e25c-97e5-4367-a6c9-baeb107ad01d")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c82696b-c6f0-42b2-a36c-6eaf5c8f12f4")
+	)
+	(wire
+		(pts
+			(xy 184.15 123.19) (xy 107.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ecbd009-8d45-44bc-b765-1fad890f7e39")
+	)
+	(wire
+		(pts
+			(xy 180.34 116.84) (xy 95.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9abff4-a7a8-4132-aed8-5a5e9f178d49")
+	)
+	(wire
+		(pts
+			(xy 111.76 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2027f5b6-c369-4041-b1cf-5f788092a2a5")
+	)
+	(wire
+		(pts
+			(xy 129.54 87.63) (xy 129.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2445d1db-80c0-4886-9419-4d7d047ee0ac")
+	)
+	(wire
+		(pts
+			(xy 121.92 73.66) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b7d32a-ffdf-4985-bcaf-609a96c94718")
+	)
+	(wire
+		(pts
+			(xy 147.32 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c91e33-1205-44a8-82f9-5f19ba19074e")
+	)
+	(wire
+		(pts
+			(xy 203.2 100.33) (xy 189.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bffa53c-6266-4028-b874-25f634b68ae7")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 111.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3c9faf-3913-4f7f-826c-12c615af5333")
+	)
+	(wire
+		(pts
+			(xy 95.25 116.84) (xy 95.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fbf754f-6a00-4407-9b20-a2b0445c099b")
+	)
+	(wire
+		(pts
+			(xy 165.1 73.66) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1614f5-1923-44c0-8945-4a9348f0c535")
+	)
+	(wire
+		(pts
+			(xy 111.76 85.09) (xy 111.76 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41552d1c-cbaf-416d-af05-9773674dc061")
+	)
+	(wire
+		(pts
+			(xy 111.76 113.03) (xy 129.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4414dc0f-b81d-482e-9bff-29b9ea21d943")
+	)
+	(wire
+		(pts
+			(xy 129.54 113.03) (xy 129.54 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0419f8-651c-47cb-8bbd-1a1e0d5ea47f")
+	)
+	(wire
+		(pts
+			(xy 147.32 85.09) (xy 147.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e59a347-6d71-42a3-842e-adaf0da38ad7")
+	)
+	(wire
+		(pts
+			(xy 175.26 133.35) (xy 175.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f99582a-5338-4cd0-9027-ec5eb4a3bbf7")
+	)
+	(wire
+		(pts
+			(xy 147.32 87.63) (xy 129.54 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60577c26-1206-4304-af7d-2844b6c7b65d")
+	)
+	(wire
+		(pts
+			(xy 99.06 87.63) (xy 99.06 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61855abd-45f7-482b-b4a9-0c9dcff3a0eb")
+	)
+	(wire
+		(pts
+			(xy 175.26 73.66) (xy 175.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c4d5a9-e267-481e-a32d-8f51c700efde")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64627db8-0a04-4adb-94a6-59edd13cc73d")
+	)
+	(wire
+		(pts
+			(xy 139.7 85.09) (xy 139.7 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651b14e1-7dab-4007-b5cb-88605c571c96")
+	)
+	(wire
+		(pts
+			(xy 182.88 81.28) (xy 182.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66330b91-89d0-4661-afbd-1f8978529ef7")
+	)
+	(wire
+		(pts
+			(xy 165.1 110.49) (xy 165.1 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cbabd8f-ab97-49f0-88f1-17f0d37aeb3d")
+	)
+	(wire
+		(pts
+			(xy 111.76 87.63) (xy 129.54 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f329c14-ba72-4b9a-897f-38c54d1639bf")
+	)
+	(wire
+		(pts
+			(xy 186.69 92.71) (xy 186.69 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f860d47-0c46-44d9-9c45-07fcf0b19330")
+	)
+	(wire
+		(pts
+			(xy 185.42 125.73) (xy 121.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71219823-c62a-4f08-a16d-5209d0c8c8dd")
+	)
+	(wire
+		(pts
+			(xy 186.69 128.27) (xy 139.7 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715a24a6-cce2-45f9-b59b-7fea5d1c93d4")
+	)
+	(wire
+		(pts
+			(xy 139.7 128.27) (xy 139.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d43017-ff0e-4e93-81ef-de294ca1c272")
+	)
+	(wire
+		(pts
+			(xy 147.32 110.49) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740dae59-ed87-4204-b575-7926b6dd2fe6")
+	)
+	(wire
+		(pts
+			(xy 129.54 100.33) (xy 129.54 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830d72f3-2063-424f-8888-ae590343ff59")
+	)
+	(wire
+		(pts
+			(xy 147.32 97.79) (xy 147.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837badde-b090-4e9f-874e-3da094287c30")
+	)
+	(wire
+		(pts
+			(xy 165.1 87.63) (xy 147.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b79e585-2f81-49d2-9a87-4960bd974e04")
+	)
+	(wire
+		(pts
+			(xy 187.96 96.52) (xy 187.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919e297a-bc88-42ee-81ff-19b16611fa04")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 165.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f20194-f6dc-450c-bb22-e701e76ca539")
+	)
+	(wire
+		(pts
+			(xy 203.2 96.52) (xy 187.96 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a0ae48-8be7-4e05-bb21-b1de987a195a")
+	)
+	(wire
+		(pts
+			(xy 203.2 92.71) (xy 186.69 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9909b704-b37b-427a-9a0c-40d6951e8694")
+	)
+	(wire
+		(pts
+			(xy 147.32 113.03) (xy 129.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3edfa0-bffd-44ca-93eb-9c8e2f506e95")
+	)
+	(wire
+		(pts
+			(xy 175.26 85.09) (xy 175.26 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bdbdd43-ca55-4c08-a0a3-9a2a73a71bb2")
+	)
+	(wire
+		(pts
+			(xy 189.23 133.35) (xy 175.26 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3566016-20f3-491b-aea6-14f2b9da10a3")
+	)
+	(wire
+		(pts
+			(xy 107.95 113.03) (xy 111.76 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ee3479-3bda-4d4a-ab38-aeb3ca6f0076")
+	)
+	(wire
+		(pts
+			(xy 165.1 113.03) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7095b3b-1ed5-4af3-80af-13130fe34f3b")
+	)
+	(wire
+		(pts
+			(xy 111.76 100.33) (xy 129.54 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7f9b01-9421-4d95-9008-66b3b22e0ec4")
+	)
+	(wire
+		(pts
+			(xy 105.41 120.65) (xy 105.41 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab748204-f723-46ff-b4d1-282a35d9e5e2")
+	)
+	(wire
+		(pts
+			(xy 182.88 120.65) (xy 105.41 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec42051-0fc7-4e24-a1a9-f078bfd924fd")
+	)
+	(wire
+		(pts
+			(xy 203.2 77.47) (xy 181.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04f687f-88d3-4cf0-bd41-74e379d99637")
+	)
+	(wire
+		(pts
+			(xy 121.92 97.79) (xy 121.92 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b087f0d8-a68c-4dbc-8d5e-ddb12c19227e")
+	)
+	(wire
+		(pts
+			(xy 175.26 97.79) (xy 175.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2adeb64-b8dd-4f67-845b-f34659a41fff")
+	)
+	(wire
+		(pts
+			(xy 181.61 118.11) (xy 99.06 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5065aab-a3a8-436a-822e-fe4f14dfe767")
+	)
+	(wire
+		(pts
+			(xy 121.92 85.09) (xy 121.92 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b516e543-b47e-487f-9a75-aa0c0f58bb1b")
+	)
+	(wire
+		(pts
+			(xy 157.48 73.66) (xy 157.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ff5d95-d6ab-4ae7-9edf-af1c66f63aa7")
+	)
+	(wire
+		(pts
+			(xy 111.76 110.49) (xy 111.76 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b914cb93-f8bd-4fa1-b906-08aa38f3b2b7")
+	)
+	(wire
+		(pts
+			(xy 111.76 73.66) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba767b3d-e6c2-433f-bd81-59deeb567108")
+	)
+	(wire
+		(pts
+			(xy 203.2 73.66) (xy 180.34 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb24f3de-e864-4f04-9abd-817993becb8b")
+	)
+	(wire
+		(pts
+			(xy 139.7 97.79) (xy 139.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befbc87e-091c-456a-977a-8d09ffb4599f")
+	)
+	(wire
+		(pts
+			(xy 189.23 100.33) (xy 189.23 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc4f9cd-157b-422a-8ecb-f3f1098cd9e0")
+	)
+	(wire
+		(pts
+			(xy 157.48 130.81) (xy 157.48 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c301a75b-1f40-4264-b8b7-fec90dae0dbb")
+	)
+	(wire
+		(pts
+			(xy 165.1 100.33) (xy 147.32 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c521bcca-c8f3-4ba9-9213-d46824c7c9b8")
+	)
+	(wire
+		(pts
+			(xy 105.41 100.33) (xy 111.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a3bf73-c9fa-45c8-a714-6ae270a87e94")
+	)
+	(wire
+		(pts
+			(xy 157.48 85.09) (xy 157.48 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d5c5ec-da90-4dd6-bb11-5c8380426ade")
+	)
+	(wire
+		(pts
+			(xy 95.25 76.2) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d664cd0b-b384-4ff6-a19e-a8d7cd9d8f8e")
+	)
+	(wire
+		(pts
+			(xy 157.48 97.79) (xy 157.48 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73b8a8d-b85e-4d6f-95df-d9dd07808d32")
+	)
+	(wire
+		(pts
+			(xy 181.61 77.47) (xy 181.61 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d897aa7e-221d-4767-9669-248d4a7d096a")
+	)
+	(wire
+		(pts
+			(xy 203.2 85.09) (xy 184.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0200f66-3aa9-49b2-8cff-67907a7c3502")
+	)
+	(wire
+		(pts
+			(xy 185.42 88.9) (xy 185.42 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5df60e4-09b2-4645-b330-435751319897")
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 129.54 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e619096a-c5f5-4d1e-b948-6a635f785708")
+	)
+	(wire
+		(pts
+			(xy 203.2 81.28) (xy 182.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e866e1a3-0090-4bb0-a168-be74a0b1565f")
+	)
+	(wire
+		(pts
+			(xy 147.32 73.66) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9d55243-0d9d-4311-b5e1-944e768a0123")
+	)
+	(wire
+		(pts
+			(xy 121.92 125.73) (xy 121.92 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b3ce2c-2d14-4ce6-bc6f-5d21b5c9da80")
+	)
+	(wire
+		(pts
+			(xy 147.32 100.33) (xy 129.54 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39ab997-4d4e-4b21-a774-95b9031ffb97")
+	)
+	(global_label "C1"
+		(shape output)
+		(at 203.2 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e29c5a3-109a-4b47-89a1-063af9446a75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6647 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R1"
+		(shape output)
+		(at 203.2 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "125d903d-2734-437e-b7f2-b0dda03290ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6647 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R4"
+		(shape output)
+		(at 203.2 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b539a2e-2602-481b-8576-505a5e192399")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6647 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R2"
+		(shape output)
+		(at 203.2 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56c810ee-4171-4e5f-82cd-0244719cdf94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6647 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R3"
+		(shape output)
+		(at 203.2 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96e73449-21a6-4454-84e8-15c6282fcb71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6647 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape output)
+		(at 203.2 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b9b02c2-e66f-4249-a644-f70e8cf873c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6647 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4"
+		(shape output)
+		(at 203.2 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f407c168-90a9-4e75-b1e3-9a60fd12afcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6647 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3"
+		(shape output)
+		(at 203.2 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc0c4b41-d0ea-4c36-843c-248d89cc3e37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.6647 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 116.84 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01812bcd-c7c5-4e5d-bbda-e7614589a816")
+		(property "Reference" "SW4"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 116.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 116.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 116.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 116.84 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cada1b2a-80c5-43c1-b661-d907657ee770")
+		)
+		(pin "2"
+			(uuid "55da493d-46e5-4369-886e-168358caa390")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 134.62 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "212300a6-e91d-4aad-a003-36e2394b7db4")
+		(property "Reference" "SW8"
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 134.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 134.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 134.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32ce79f9-ef3f-40b2-be27-1646dbb3ef60")
+		)
+		(pin "2"
+			(uuid "8756ee5c-b174-4b59-8fb1-813d34a76dea")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 170.18 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b0692e5-597b-47f5-b640-effa95574790")
+		(property "Reference" "SW14"
+			(at 170.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 170.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 170.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 170.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 170.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f45eb6b-603f-4991-9551-097417b7289f")
+		)
+		(pin "2"
+			(uuid "b91b05ec-dddb-41ea-ab86-3aeb79fd60ef")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 134.62 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34c164b0-ebc0-4e3e-aa8f-43b989b28fae")
+		(property "Reference" "SW5"
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 134.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 134.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 134.62 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51b84365-3e14-43ba-95f5-c2694be10eea")
+		)
+		(pin "2"
+			(uuid "7432bfa7-f0c6-4a06-aaef-77edcbadb5d1")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 152.4 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b18fbc0-0d12-468c-9fd2-04e0ff1436d0")
+		(property "Reference" "SW12"
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f90e0492-c525-4c17-b9bb-4d43d5de5505")
+		)
+		(pin "2"
+			(uuid "7efc4fe0-19bc-4e58-b2b4-d64576ab7ca2")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 170.18 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b97654c-1e07-4acb-b94e-0329426ce968")
+		(property "Reference" "SW15"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8516b4ab-37b9-44bd-b3d1-eab9144402e9")
+		)
+		(pin "2"
+			(uuid "c62baa14-302e-47bd-9795-80331b598240")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 134.62 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4286bb22-562a-43d9-8e64-e147b08ddd6c")
+		(property "Reference" "SW7"
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 134.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d93bac53-37de-456e-ac75-466650a01941")
+		)
+		(pin "2"
+			(uuid "79738166-80b0-409d-812a-7d1f1b2e7f66")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 116.84 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52306f6c-6ca3-4940-a9cf-9333f7efaf5b")
+		(property "Reference" "SW2"
+			(at 116.84 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49f30e7f-f806-4fdc-aa27-c85244b2af8c")
+		)
+		(pin "2"
+			(uuid "241cf985-5a7b-42b3-8276-28130d0fb5c6")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 134.62 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59f7ad4c-8903-430d-af0d-0142b0c6483a")
+		(property "Reference" "SW6"
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 134.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 134.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 134.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7ad9eb0-e613-4488-830e-f185698b5734")
+		)
+		(pin "2"
+			(uuid "e4c9a387-c2a8-41d1-81ae-ad4b1598cda1")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 152.4 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "684c806e-24c3-4eea-8a06-d79573b28dcc")
+		(property "Reference" "SW9"
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ce4b4e9-4f41-41a7-9acb-88177b1cada5")
+		)
+		(pin "2"
+			(uuid "5ed8b1a4-8900-4bba-be08-420e102b1934")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 116.84 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "713d1938-6964-4d24-84df-48e9c412b4ee")
+		(property "Reference" "SW3"
+			(at 116.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9f9a2e5-ba08-48c8-b380-6401d31618a2")
+		)
+		(pin "2"
+			(uuid "bdd7511c-3f21-4ec3-9a1d-f2083c20c731")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 152.4 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "743bd93b-71a6-4279-ab33-d89d3f541532")
+		(property "Reference" "SW10"
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a24d8bc2-f375-43e3-89fe-4c83ec5936d9")
+		)
+		(pin "2"
+			(uuid "76d8344e-d08a-476c-a578-57ea7bdc2797")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 170.18 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86dc4b10-c594-4e81-bc15-585a1d28f544")
+		(property "Reference" "SW16"
+			(at 170.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 170.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 170.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1746e374-3498-4e3b-9731-0c8941bc3189")
+		)
+		(pin "2"
+			(uuid "183741b7-4b5c-4296-9758-0adb3b46abf3")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 152.4 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d91be23-5a39-4d0e-aad2-bf957c1c9ee9")
+		(property "Reference" "SW11"
+			(at 152.4 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 152.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48fa64ed-6edf-4b88-a66b-5f2959faf130")
+		)
+		(pin "2"
+			(uuid "025ef382-acf5-40b5-8f31-f44702390c82")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 170.18 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "908c0af6-487d-4507-842c-a334745a0cea")
+		(property "Reference" "SW13"
+			(at 170.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 170.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23636f75-5230-4b04-a9b9-3f47ad0b19f7")
+		)
+		(pin "2"
+			(uuid "774aebbf-921a-41ec-a01d-10e62241c151")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Omron_B3FS")
+		(at 116.84 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a26dbc34-052d-45cf-91ec-ee30c256c187")
+		(property "Reference" "SW1"
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Omron_B3FS"
+			(at 116.84 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+			(at 116.84 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
+			(at 116.84 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcd1caf0-98cc-4e67-9cd8-540201d34299")
+		)
+		(pin "2"
+			(uuid "81456c71-5d5e-4327-8275-cde512bdd277")
+		)
+		(instances
+			(project "RIFD_Final"
+				(path "/293eac2f-f0ba-4087-b58c-250c6449c863/d335a407-c03f-4570-ba9e-7bfda88db272"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
